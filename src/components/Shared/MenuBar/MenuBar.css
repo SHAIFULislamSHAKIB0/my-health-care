@@ -1,0 +1,22 @@
+.my-logo{
+  display: inline-block;
+}
+.name-style{
+    color:#15e445 ;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.items {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.items:hover {
+  color: #1dd848;
+}
+.menubar-container {
+  background-color: #ffffff;
+}

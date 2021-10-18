@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Couples Therapy",
+        "img": "https://cdn.gottman.com/wp-content/uploads/2020/03/Blog_HowToFindACouplesTherapist_v3.jpg",
+        "des": "A few years ago, I met a woman at a wedding who told me that she pictured marriage like two astronauts floating around in space, tethered together."
+    },
+    {
+        "id": 2,
+        "name": "Teens & Youth",
+        "img": "https://www.talkspace.com/blog/wp-content/uploads/2017/05/teen-boy-therapy_1320WW_JR.jpg",
+        "des": "Children and adolescents, or teens, build social skills and emotional intelligence as they grow. These things often lead to healthy, happy lives. But some kids have emotions or behave in ways that disrupt their well-being."
+    },
+    {
+        "id": 3,
+        "name": "Individuals",
+        "img": "https://dz9yg0snnohlc.cloudfront.net/difference-between-therapist-1.jpg",
+        "des": "These psychologists study the behavior of pilots and other flight crew members. Aviation psychologists also perform research on airline safety, develop new training equipment, and help select suitable employees."
+    },
+    {
+        "id": 4,
+        "name": "Family Therapy",
+        "img": "https://www.changescounselingllc.com/themes/Bloom/TS/Lagoon/Family_1.jpg",
+        "des": "Family therapy is a type of psychological counseling (psychotherapy) that can help family members improve communication and resolve conflicts."
+    },
+    {
+        "id": 5,
+        "name": "Guidance and career counseling",
+        "img": "https://www.betterteam.com/images/Guidance-Counselor-Job-Description.jpeg?crop=1:1,smart&width=1200&dpr=2",
+        "des": "A career counselor could be a therapist, life coach, or a volunteer from the business world but will generally be trained to provide career information resources, discuss career development, and administer and interpret aptitude and ability assessments. "
+    },
+    {
+        "id": 6,
+        "name": "Educational Counseling",
+        "img": "https://lsuonline-static.s3.amazonaws.com/media/images/2020/04/20/school-counselor-feature.jpg",
+        "des": "Educational Counselling mainly refers to providing assistance and guidance to students in making the right choices in their studies, be it their educational plans, career aspirations, choice of stream and specialisation."
+    }
+]
