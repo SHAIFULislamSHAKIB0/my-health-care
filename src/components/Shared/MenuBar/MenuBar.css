@@ -2,7 +2,8 @@
   display: inline-block;
 }
 .name-style{
-    color:#15e445 ;
+    color:#15e445;
+    font-size: small;
 }
 .logo{
     width: 30px;
@@ -19,4 +20,18 @@
 }
 .menubar-container {
   background-color: #ffffff;
+}
+.nav-link {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(201, 97, 97);
+  cursor: pointer;
+  padding: 7px;
+  text-decoration: none;
+}
+.mylogos{
+  list-style: none;
+  text-decoration: none;
 }
