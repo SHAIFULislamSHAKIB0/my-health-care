@@ -17,6 +17,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
     <div className="App">
       <Router>
         <MenuBar></MenuBar>
+
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -39,6 +42,12 @@ function App() {
           </Route>
           <Route path="/workprocess">
             <WorkProcess></WorkProcess>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/register">
+            <Register></Register>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

@@ -2,8 +2,10 @@ import React from 'react';
 import './MenuBar.css'
 import logo from '../../../images/logo.jpg'
 import { Link } from 'react-router-dom';
+import useFirebase from '../../../Hooks/useFirebase';
 
 const MenuBar = () => {
+    const { user, logOut } = useFirebase();
     return (
         <div>
             <div className="row menubar-container">
@@ -19,7 +21,14 @@ const MenuBar = () => {
                             <Link to="/aboutme" className="nav-link"><li className="items m-2 p-2 ">About</li></Link>
                             <Link to="/services" className="nav-link"><li className="items m-2 p-2">Services</li></Link>
                             <Link to="/workprocess" className="nav-link"><li className="items m-2 p-2">Process</li></Link>
-                            <Link to="/login" className="nav-link"><li className="items m-2 p-2">Login</li></Link>
+
+
+                            {
+                                user.email ? <button className="items m-2 p-2 nav-link" onClick={logOut}>log Out</button> :
+                                    <Link to="/login" className="nav-link"><li className="items m-2 p-2">Login</li></Link>
+                            }
+                            {user.email && <span className="items m-2 p-2" style={{ color: 'black' }}>Hello: {user.displayName}</span>}
+
                         </ul>
                     </div>
                 </div>
