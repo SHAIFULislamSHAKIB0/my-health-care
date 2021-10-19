@@ -10,7 +10,7 @@ const Events = () => {
             .then(data => setEvents(data))
     }, [])
     return (
-        <div className="mb-4">
+        <div className="mb-4 mt-4">
             <h5 className="about">Upcoming events</h5>
             <h2 className="mb-4">My Programs</h2>
             <div className="row">
