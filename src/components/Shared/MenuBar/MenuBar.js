@@ -20,7 +20,8 @@ const MenuBar = () => {
                             <Link to="/home" className="nav-link"><li className="items m-2 p-2">Home</li></Link>
                             <Link to="/aboutme" className="nav-link"><li className="items m-2 p-2 ">About</li></Link>
                             <Link to="/services" className="nav-link"><li className="items m-2 p-2">Services</li></Link>
-                            <Link to="/workprocess" className="nav-link"><li className="items m-2 p-2">Process</li></Link>
+                            <Link to="/events" className="nav-link"><li className="items m-2 p-2">Events</li></Link>
+                            <Link to="/workprocess" className="nav-link"><li className="items m-2 p-2">WorkProcess</li></Link>
 
 
                             {

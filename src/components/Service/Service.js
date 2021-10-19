@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Details from '../Details/Details';
 import './Service.css'
 
 const Service = (props) => {
     console.log(props.service)
-    const { name, img, des } = props.service;
+    const { id, name, img, des } = props.service;
 
     const description = des.slice(0, 70)
     return (
@@ -14,7 +16,7 @@ const Service = (props) => {
                 </div>
                 <h4 className="mt-2">{name}</h4>
                 <p>{description}...</p>
-                <button className="contact-btn">Details</button>
+                <Link to={`/details/${id}`}><button className="contact-btn">Details</button></Link>
             </div>
         </div>
     );
