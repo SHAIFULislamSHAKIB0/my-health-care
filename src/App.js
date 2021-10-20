@@ -22,6 +22,7 @@ import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Details from './components/Details/Details';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -45,9 +46,9 @@ function App() {
               <Services></Services>
             </Route>
 
-            <PrivateRoute path="/details/:detailsId">
+            <Route path="/details/:detailsId">
               <Details></Details>
-            </PrivateRoute>
+            </Route>
 
             <PrivateRoute path="/workprocess">
               <WorkProcess></WorkProcess>

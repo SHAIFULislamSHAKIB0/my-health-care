@@ -3,6 +3,8 @@ import './MenuBar.css'
 
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import Button from '@restart/ui/esm/Button';
 
 const MenuBar = () => {
     const { user, logOut } = useAuth();
@@ -11,7 +13,7 @@ const MenuBar = () => {
             <div className="row menubar-container">
                 <div className="row">
                     <div className="col-md-2 col-lg-2 col-sm-12">
-                        <div className="logo  p-3 container">
+                        <div className="logo p-2 container">
                             <Link to="/home" className="mylogos"><h4 className>SHAKIB'S <small className="name-style">psychologist</small></h4></Link>
                         </div>
                     </div>

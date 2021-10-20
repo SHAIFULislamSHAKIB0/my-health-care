@@ -4,7 +4,7 @@ import Details from '../Details/Details';
 import './Service.css'
 
 const Service = (props) => {
-    console.log(props.service)
+    // console.log(props.service)
     const { id, name, img, des } = props.service;
 
     const description = des.slice(0, 70)
