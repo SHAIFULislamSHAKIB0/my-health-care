@@ -26,7 +26,7 @@ const Details = () => {
                 </div>
                 <h3 className="mt-4">{clickedService?.name}</h3>
                 <p>{clickedService?.des}</p>
-                <Link to={`/details/${clickedService?.id}/contact`}><button className="contact-btn">Book-Services</button></Link>
+                <button className="contact-btn">Book-Services</button>
             </div>
         </div>
     );

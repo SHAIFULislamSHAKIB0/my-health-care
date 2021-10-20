@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import {
     faFacebookSquare,
     faInstagramSquare,
@@ -14,9 +15,11 @@ import {
     faVoicemail,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 
 
 const Footer = () => {
+    const { user, logOut } = useAuth()
     return (
         <div>
             <div className="footer-container">
@@ -75,7 +78,10 @@ const Footer = () => {
                                     <Link to="/aboutme" className="nav-link"><li className="items  p-2 ">About</li></Link>
                                     <Link to="/services" className="nav-link"><li className="items  p-2">Services</li></Link>
                                     <Link to="/events" className="nav-link"><li className="items m-2 p-2">Events</li></Link>
-                                    <Link to="/login" className="nav-link"><li className="items p-2">Login</li></Link>
+                                    {
+                                        user.email ? <Button onClick={logOut} variant="light">LogOut</Button> :
+                                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                                    }
                                 </ul>
                             </div>
                         </div>

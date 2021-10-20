@@ -16,7 +16,7 @@ const Services = () => {
     return (
         <div>
             <div className="container">
-                <h5 className="about">My Services</h5>
+                <h3 className="about mt-5">My Services</h3>
                 <h2>What Service Provide</h2>
                 <p><small>Psychologists provide treatment for depression, anxiety, phobias, panic disorders, <br /> eating disorders, stress related problems, relationship problems, and severe mental disorders.</small></p>
             </div>

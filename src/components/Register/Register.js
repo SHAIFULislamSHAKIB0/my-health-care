@@ -8,6 +8,7 @@ const Register = () => {
         <div className="login-form col-md-12 ">
             <div className=" border border-2 m-4 p-4">
                 <h2 className="m-2">Create Acount</h2>
+
                 <form onSubmit="">
                     <input type="email" placeholder="Your email" name="" id="" />
                     <br />
