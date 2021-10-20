@@ -1,6 +1,6 @@
 # Phychologist Shakib (Phychologist)
 
-[SHAKIB'S CARE]( https://my-health-care-d6852.web.app).
+[Phychologist Shakib]( https://my-health-care-d6852.web.app).
 
 
 # Features

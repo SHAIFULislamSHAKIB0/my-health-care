@@ -4,8 +4,8 @@ import './MenuBar.css'
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
-// import Button from '@restart/ui/esm/Button';
-import { HashLink } from 'react-router-hash-link';
+
+
 
 const MenuBar = () => {
     const { user, logOut } = useAuth();

@@ -1,8 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MenuBar from './components/Shared/MenuBar/MenuBar';
-import Banner from './components/Shared/Banner/Banner';
 import AboutMe from './components/AboutMe/AboutMe';
 import Services from './components/Services/Services';
 import WorkProcess from './components/WorkProcess/WorkProcess';
@@ -14,7 +13,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
@@ -22,7 +21,7 @@ import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Details from './components/Details/Details';
-import Contact from './components/Contact/Contact';
+
 
 
 function App() {
